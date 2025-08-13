@@ -2,7 +2,7 @@ const JsUser = {
     name:"varun",
     "Full Name" : "Varun Sehgal",
     age: 20,
-    location: "Guna",
+    location: "Dabra",
     email : "varunsehgal2005@gmail.com",
     isloggedIn : "fales",
     lastLoginDays: ["Monday", "Saturday"]
