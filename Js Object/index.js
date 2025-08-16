@@ -16,3 +16,7 @@ console.log(JsUser[mySym]);
 console.log(JsUser["email"]);
 console.log(JsUser["Full Name"]);
 console.log("Hello Varun")
+
+JsUser.email = "varun.sehgal02@gmail.com";
+
+console.log(JsUser.email);
