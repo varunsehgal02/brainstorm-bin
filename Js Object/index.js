@@ -20,3 +20,10 @@ console.log("Hello Varun")
 JsUser.email = "varun.sehgal02@gmail.com";
 
 console.log(JsUser.email);
+
+
+Object.freeze(JsUser);
+
+
+JsUser.email = "varun.sehgal02@ac.in";
+console.log(JsUser.email);
