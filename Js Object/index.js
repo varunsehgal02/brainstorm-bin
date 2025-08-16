@@ -22,8 +22,19 @@ JsUser.email = "varun.sehgal02@gmail.com";
 console.log(JsUser.email);
 
 
-Object.freeze(JsUser);
+// Object.freeze(JsUser);
 
 
 JsUser.email = "varun.sehgal02@ac.in";
 console.log(JsUser.email);
+console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello Varun");
+};
+JsUser.greetingTwo = function(){
+    console.log(`Heyy ${this.name}`);
+    console.log(`Hello ${this["Full Name"]}`);
+};
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
